@@ -1,0 +1,63 @@
+.Mercari_content
+  .Title
+    .Title__name
+      メルカリ
+  .From
+    %input.cm_fielde{"placeholder": "縦"} cm
+    %input.cm_fielde{"placeholder": "横"} cm
+    %input.cm_fielde{"placeholder": "高さ"} cm
+  .Weight_select
+    %p重さ
+    %select.weight{"style": "height:30px"}
+      %option{"value": ""}選択
+      %option{"value": "2"}2
+      %option{"value": "5"}5
+      %option{"value": "10"}10
+      %option{"value": "15"}15
+      %option{"value": "20"}20
+      %option{"value": "25"}25
+    kg以内
+  .Option
+    %lael{"for": "checkboxes"}
+      %input{"type": "checkbox", "value": "conpensation", "id": "checkboxes"}補償付き
+    %lael{"for": "checkboxes"}
+      %input{"type": "checkbox","value": "anonymous"}匿名配送
+    %lael{"for": "checkboxes"}
+      %input{"type": "checkbox","value": "collect"}集荷
+    %lael{"for": "checkboxes"}
+      %input{"type": "checkbox","value": "office-store"}郵便局・コンビニ受取
+    %lael{"for": "checkboxes"}
+      %input{"type": "checkbox","value": "packing"}梱包代行
+
+  .From_address
+    %p発送元
+    %select.prefectures{"style": "height:30px"}
+      %option{"value": ""}選択
+      %option{"value": "Hokkaido"}北海道
+      %option{"value": "kitatohoku"}北東北(青森・秋田・岩手)
+      %option{"value": "minamitohoku"}南東北(宮城・山形・福島)
+      %option{"value": "kanntou"}関東(東京・茨城・栃木・群馬・埼玉・千葉・神奈川・山梨)
+      %option{"value": "sinetsu"}信越(長野・新潟)
+      %option{"value": "hokuriku"}北陸(富山・石川・福井)
+      %option{"value": "chubu"}中部(静岡・愛知・岐阜・三重)
+      %option{"value": "kansai"}関西(大阪・京都・滋賀・奈良・和歌山・兵庫)
+      %option{"value": "chugoku"}中国(岡山・広島・山口・鳥取・島根)
+      %option{"value": "sikoku"}四国(香川・徳島・高知・愛媛)
+      %option{"value": "kyushu"}九州(福岡・佐賀・長崎・熊本・大分・宮崎・鹿児島)
+      %option{"value": "okinawa"}沖縄
+  .to_address
+    %pお届け先
+    %select.prefectures{"style": "height:30px"}
+      %option{"value": ""}選択
+      %option{"value": "Hokkaido"}北海道
+      %option{"value": "kitatohoku"}北東北(青森・秋田・岩手)
+      %option{"value": "minamitohoku"}南東北(宮城・山形・福島)
+      %option{"value": "kanntou"}関東(東京・茨城・栃木・群馬・埼玉・千葉・神奈川・山梨)
+      %option{"value": "sinetsu"}信越(長野・新潟)
+      %option{"value": "hokuriku"}北陸(富山・石川・福井)
+      %option{"value": "chubu"}中部(静岡・愛知・岐阜・三重)
+      %option{"value": "kansai"}関西(大阪・京都・滋賀・奈良・和歌山・兵庫)
+      %option{"value": "chugoku"}中国(岡山・広島・山口・鳥取・島根)
+      %option{"value": "sikoku"}四国(香川・徳島・高知・愛媛)
+      %option{"value": "kyushu"}九州(福岡・佐賀・長崎・熊本・大分・宮崎・鹿児島)
+      %option{"value": "okinawa"}沖縄

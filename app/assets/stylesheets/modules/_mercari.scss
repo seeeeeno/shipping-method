@@ -1,0 +1,51 @@
+.Mercari_content {
+  width: 100vw;
+  height: 100vh;
+  .Title {
+    width: 100vw;
+    height: 70px;
+    background-color: #c60019;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    font-family: Hannotate TC;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .From {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    .cm_fielde {
+      width: 70px;
+    }
+  }
+  .Weight_select {
+    margin-top: 10px;
+    text-align: center;
+    .weight {
+    }
+  }
+  .Option {
+    margin: auto;
+    width: 700px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    .checkboxes{
+    }
+  }
+  .From_address {
+    text-align: center;
+    .prefectures {
+
+    }
+  }
+  .to_address {
+    text-align: center;
+    .prefectures {
+
+    }
+  }
+
+}
